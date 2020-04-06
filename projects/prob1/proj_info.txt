@@ -1,0 +1,17 @@
+Data Analytics System Design
+
+You get a file which is 1TB in size every min
+Each file has data about Customer usage.
+CustomerId
+Product Id
+Events (Added VM, deleted VM, added/deleted memory, added/deleted CPU, etc)
+The task is to provide real time analytics
+How many VMs added/deleted in a given range
+Most used Product
+Count of each operation
+
+Questions:
+How will process the file?
+How will you design db for analytics? what tech sql-nosql
+How will you scale for 100TB file per min
+What tools/technologies will be used?
